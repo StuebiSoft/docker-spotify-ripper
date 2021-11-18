@@ -13,6 +13,8 @@ RUN sed -i -e's/ main/ main contrib non-free/g' /etc/apt/sources.list && \
         gnupg \
         git \
         lame \
+        flac \
+        
         python3 \
         python3-dev \
         python3-pip && \
