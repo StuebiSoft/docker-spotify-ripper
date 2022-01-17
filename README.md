@@ -1,6 +1,13 @@
+## what fork does this use
+````
+tmerten/spotify-ripper
+└── SolidHal/spotify-ripper
+    └── wolfmanx/spotify-ripper
+        └── scaronni/spotify-ripper
+            └── putty182/spotify-ripper
+````
 
-
-## volume layout
+## docker volume layout
 ````
 /config
 ├── config.ini
@@ -8,6 +15,7 @@
 └── spotify_appkey.key
 
 /music
+└── *
 ````
 
 ## run
